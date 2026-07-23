@@ -16,7 +16,7 @@ def init_chrome_driver():
     chrome_options.add_argument("--start-maximized")
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     chrome_options.add_experimental_option("useAutomationExtension", False)
-    service = Service(executable_path=r'D:\Users\32613\Desktop\作业文件\jupyter_notebook数据库\chromedriver.exe')
+    service = Service(executable_path=r'driver/chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=chrome_options)
     wait = WebDriverWait(driver, 15)
     return driver, wait
