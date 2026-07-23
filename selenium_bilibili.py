@@ -173,10 +173,10 @@ def bilibili_login(driver, wait):
 
     # 输入账号密码
     username_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[placeholder='请输入账号']")))
-    username_input.send_keys("13330227587")
+    username_input.send_keys("your_username")  # 替换为实际账号
 
     password_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[placeholder='请输入密码']")))
-    password_input.send_keys("akkm10086A")
+    password_input.send_keys("your_password")  # 替换为实际密码
 
     # 点击登录按钮，弹出验证码
     login_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".btn_primary")))
