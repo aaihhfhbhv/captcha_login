@@ -1,0 +1,5 @@
+captcha_login/
+├─ main.py                # 程序主入口，串联所有模块
+├─ captcha_preprocess.py # 图像预处理函数
+├─ ocr_engine.py          # ddddocr初始化、IOU去重、mox识别函数
+└─ selenium_bilibili.py   # Selenium浏览器、登录、验证码点击逻辑

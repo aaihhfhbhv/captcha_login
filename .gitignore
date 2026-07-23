@@ -1,0 +1,9 @@
+# VSCode本地配置
+.vscode/
+# Python字节码缓存
+__pycache__/
+*.pyc
+*.pyo
+# 验证码截图、生成图片
+*.jpg
+*.jpeg

@@ -1,0 +1,5 @@
+numpy==1.24.4
+opencv-python==4.9.0.80
+ddddocr==1.6.1
+onnxruntime==1.15.1
+selenium==4.19.0
